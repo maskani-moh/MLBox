@@ -8,7 +8,7 @@ import os
 
 import numpy as np
 import pandas as pd
-from sklearn.model_selection import *
+from sklearn.model_selection import KFold, cross_val_score
 from .drift_threshold import *
 
 
