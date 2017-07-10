@@ -44,9 +44,7 @@ requirements = [
     "pandas>=0.18.0",
     "scikit-learn==0.18.1",
     "scipy>=0.17.0",
-    "Theano==0.9.0",
-    "xgboost==0.6a2",
-    "lightgbm==2.0.2"
+    "Theano==0.9.0"
 ]
 
 test_requirements = [
@@ -58,9 +56,7 @@ test_requirements = [
     "pandas>=0.18.0",
     "scikit-learn==0.18.1",
     "scipy>=0.17.0",
-    "Theano==0.9.0",
-    "xgboost==0.6a2",
-    "lightgbm==2.0.2"
+    "Theano==0.9.0"
 ]
 
 setup(
