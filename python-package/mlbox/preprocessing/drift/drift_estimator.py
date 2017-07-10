@@ -6,8 +6,7 @@
 import numpy as np
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import *
-from sklearn.model_selection import *
+from sklearn.model_selection import KFold, StratifiedKFold
 
 def cross_val_predict_proba(estimator, X, y, cv):
     
