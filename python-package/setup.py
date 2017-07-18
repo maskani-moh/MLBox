@@ -24,7 +24,7 @@ class OverrideInstallCommand(install):
             print(str(failed))
             print("Please install them manually")
             print("")
-            raise OSError("Aborting")
+            return 1
 
         # install MlBox
         install.run(self)
@@ -44,7 +44,9 @@ requirements = [
     "pandas>=0.18.0",
     "scikit-learn==0.18.1",
     "scipy>=0.17.0",
-    "Theano==0.9.0"
+    "Theano==0.9.0",
+    "xgboost==0.6a2",
+    "lightgbm==2.0.2"
 ]
 
 test_requirements = [
@@ -56,7 +58,9 @@ test_requirements = [
     "pandas>=0.18.0",
     "scikit-learn==0.18.1",
     "scipy>=0.17.0",
-    "Theano==0.9.0"
+    "Theano==0.9.0",
+    "xgboost==0.6a2",
+    "lightgbm==2.0.2"
 ]
 
 setup(
